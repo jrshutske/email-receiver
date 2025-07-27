@@ -17,19 +17,19 @@ A lightweight, TypeScript-based email receiver that listens for incoming SMTP me
 
 Clone the repo and install required packages:
 
-````bash
+```bash
 git clone https://github.com/jrshutske/email-receiver.git
 cd email-receiver
 npm install
+```
 
-
-### ▶️ Run the Syslog Server
+### ▶️ Run the Email Server
 
 ```bash
 npm start
-````
+```
 
-### 🧪 Send a Test Syslog Message
+### 🧪 Send a Test Email Message
 
 ```bash
 npm test
