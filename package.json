@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx ts-node ./src/server.ts",
     "test": "npx ts-node ./src/test.ts",
-    "buildexe": "npx tsc && pkg . --targets node16-win-x64 --output email-server.exe"
+    "buildexe": "npx tsc && npx pkg . --targets node16-win-x64 --output email-server.exe"
   },
   "author": "",
   "license": "ISC",
